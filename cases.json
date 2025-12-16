@@ -1,0 +1,42 @@
+[
+  {
+    "case": "Sarah receives an email from her bank asking her to click a link and enter her password to verify her account.",
+    "correct": "Guilty",
+    "explanation": "This is PHISHING! Real banks never ask for passwords via email. Always check URLs and contact the bank directly."
+  },
+  {
+    "case": "Mike downloads a free game from a torrent site and it asks him to disable his antivirus first.",
+    "correct": "Guilty",
+    "explanation": "MALWARE ALERT! Legitimate software never asks you to disable security. Torrent sites are full of viruses."
+  },
+  {
+    "case": "Lisa shares her Netflix password with her best friend so they can watch together.",
+    "correct": "Guilty",
+    "explanation": "Account SHARING violates terms of service and is illegal. Each person needs their own account."
+  },
+  {
+    "case": "Tom finds a WiFi network named 'Free Airport WiFi' and connects without a password.",
+    "correct": "Guilty",
+    "explanation": "This could be a HACKER'S TRAP! Public WiFi without passwords is often fake. Use mobile data or VPN."
+  },
+  {
+    "case": "Jenny posts her exact address and daily routine on social media.",
+    "correct": "Guilty",
+    "explanation": "DANGEROUS oversharing! This helps stalkers and burglars plan crimes. Keep personal details private."
+  },
+  {
+    "case": "David clicks on a pop-up saying 'Your computer is infected - call this number now!'",
+    "correct": "Guilty",
+    "explanation": "TECH SUPPORT SCAM! Close pop-ups immediately. Never call numbers from suspicious alerts."
+  },
+  {
+    "case": "Emma receives a text from an unknown number offering her a free iPhone.",
+    "correct": "Guilty",
+    "explanation": "SMS SCAM! If it sounds too good to be true, it is. Delete and block the sender."
+  },
+  {
+    "case": "Alex uses the same password 'password123' for email, bank, and social media.",
+    "correct": "Guilty",
+    "explanation": "PASSWORD REUSE is dangerous! Use unique, strong passwords and a password manager."
+  }
+]
