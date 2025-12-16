@@ -1593,7 +1593,7 @@
                         <h3>📱 Scan QR Code</h3>
                         <p>Parents can quickly submit feedback by scanning the QR code with their mobile device.</p>
                         <div style="background: rgba(10,10,30,0.95); padding: 18px; border-radius: 12px; text-align: center; margin: 14px 0; border: 2px solid rgba(0,255,136,0.3);">
-                            <a href="feedback-form.html" style="display: inline-block;">
+                            <a href="https://atharv6272-eng.github.io/PBA-master-website/feedback-form.html" style="display: inline-block;">
                                 <div id="qrcode"></div>
                             </a>
                         </div>
@@ -2029,9 +2029,9 @@
         }
 
         function copyQRLink() {
-            navigator.clipboard.writeText('feedback-form.html').then(() => {
+            navigator.clipboard.writeText('https://atharv6272-eng.github.io/PBA-master-website/feedback-form.html').then(() => {
                 showPopup('📋 Link copied!');
-            }).catch(() => alert('Form: feedback-form.html'));
+            }).catch(() => alert('Form: https://atharv6272-eng.github.io/PBA-master-website/feedback-form.html'));
         }
 
         // --- FEEDBACK FORM ---
@@ -2066,7 +2066,7 @@
             goToSection('home');
             // Generate QR code
             new QRCode(document.getElementById("qrcode"), {
-                text: "feedback-form.html",
+                text: "https://atharv6272-eng.github.io/PBA-master-website/feedback-form.html",
                 width: 160,
                 height: 160,
                 colorDark: "#000000",
